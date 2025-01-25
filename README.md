@@ -11,13 +11,21 @@ First you have to export lists of orders for each month that you want to make su
 ## Using scripts
 
 - Install requirements.txt
+
 ```$ pip install -r requirements.txt```
-- Run ```runner.sh```
+
+- Run `runner.sh`
+
 ```$ bash runner.sh```
-- Run ```check_duplicates.py``` and then correct all errors,
+
+- Run `check_duplicates.py` and then correct all errors,
+
 ```$ python check_duplicates.py```
-- Run ```merge_csvs.py```
+
+- Run `merge_csvs.py`
+
 ```$ python merge_csvs.py```
+
 - Import the csv file and prettify it.
 
-Just use the ```runner.sh``` script in ```/tmp``` directory. Check if everything's okay, use ```check_duplicates.py```
+Just use the `runner.sh` script in `/tmp` directory. Check if everything's okay, use `check_duplicates.py`
